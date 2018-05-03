@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class Piotr1Application {
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(Piotr1Application.class, args);
+		Calculator calculator = new Calculator();
+		calculator.add(2,6);
 	}
 }
